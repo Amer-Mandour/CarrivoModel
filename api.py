@@ -78,14 +78,14 @@ MODEL_FEATURES = ['R', 'I', 'A', 'S', 'E', 'C',
 'I like putting things together or assembling things_yes', 'I like to cook_yes', 'I am a practical person_yes',
 'I like working outdoors_yes', 'I like to do puzzles_yes', 'I like to do experiments_yes', 'I enjoy science_yes',
 'I enjoy trying to figure out how things work_yes', 'I like to analyze things (problems/situations)_yes',
-'I like working with numbers or charts_yes', 'I’m good at math_yes', 'I am good at working independently_yes', 
+'I like working with numbers or charts_yes', "I'm good at math_yes", 'I am good at working independently_yes', 
 'I like to read about art and music_yes', 'I enjoy creative writing_yes', 'I am a creative person_yes', 'I like to play instruments or sing_yes',
 'I like acting in plays_yes', 'I like to draw_yes', 'I like to work in teams_yes', 'I like to teach or train people_yes',
 'I like trying to help people solve their problems_yes', 'I am interested in healing people_yes', 'I enjoy learning about other cultures_yes',
 'I like to get into discussions about issues_yes', 'I like helping people_yes', 'I am an ambitious person,I set goals for myself_yes', 
 'I like to try to influence or persuade people_yes', 'I like selling things_yes', 'I am quick to take on new responsibilities_yes',
 'I would like to start my own business_yes', 'I like to lead_yes', 'I like to give speeches_yes', 'I like to organize things,(files, desks/offices)_yes',
-'I like to have clear instructions to follow_yes', 'I wouldn’t mind working 8 hours per day in an office_yes', 'I pay attention to details_yes',
+'I like to have clear instructions to follow_yes', "I wouldn't mind working 8 hours per day in an office_yes", 'I pay attention to details_yes',
 'I like to do filing or typing_yes', 'I am good at keeping records of my work_yes', 'I would like to work in an office_yes',
 'class_C', 'class_E', 'class_I', 'class_R', 'class_S']
 
@@ -138,7 +138,7 @@ QUESTION_MAPPING = {
     "page1_q14": ("I like to take care of animals_yes", "R"), # Often R or S. Putting in R based on "Nature" aspect common in R
 
     # Page 2
-    "page2_q1": ("I wouldn’t mind working 8 hours per day in an office_yes", "C"), # smart quote
+    "page2_q1": ("I wouldn't mind working 8 hours per day in an office_yes", "C"), # smart quote
     "page2_q2": ("I like selling things_yes", "E"),
     "page2_q3": ("I enjoy creative writing_yes", "A"),
     "page2_q4": ("I enjoy science_yes", "I"),
@@ -164,7 +164,7 @@ QUESTION_MAPPING = {
     "page3_q8": ("I like to lead_yes", "E"),
     "page3_q9": ("I like working outdoors_yes", "R"),
     "page3_q10": ("I would like to work in an office_yes", "C"),
-    "page3_q11": ("I’m good at math_yes", "I"), # smart quote
+    "page3_q11": ("I'm good at math_yes", "I"), # smart quote
     "page3_q12": ("I like helping people_yes", "S"),
     "page3_q13": ("I like to draw_yes", "A"),
     "page3_q14": ("I like to give speeches_yes", "E"),
